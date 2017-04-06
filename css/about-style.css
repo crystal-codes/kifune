@@ -1,0 +1,133 @@
+body {
+	background-color: #fffefb;
+	font-family: 'Muli', sans-serif;
+	color: #5d4687;
+	padding-top: 70px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Crimson Text', serif;
+}
+
+/*navigation*/
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 80px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.navigation .navbar {
+	margin-bottom: 0px;
+}
+.navigation img {
+	padding-left: 30px;
+	height: 50px;
+
+}
+.navigation h1 {
+	font-family: 'Crimson Text', serif;
+}
+
+.navigation .navbar-fixed-top {
+    background-color: #fffefb;
+    border-color: #fffefb;
+}
+
+.navigation a {
+	color: #5d4687;
+}
+.navigation ul {
+	font-size: 18px;
+}
+
+.navigation .icon-bar {
+	background-color: #5d4687;
+}
+
+/*about*/
+
+.about .container {
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+.about .about-description {
+	background-color: #eeeeee;
+	padding: 20px 50px;
+}
+
+.about .intro {
+	text-align: center;
+}
+
+.about .kifune-chan {
+	text-align: center;
+}
+
+
+/*footer*/
+#map>iframe {
+	width: 100%;
+	height: 220px;
+
+}
+.footer {
+	background-color: #e9e6ef;
+}
+.footer .container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer .btn {
+	background-color: #f9ca80;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer p, .footer h3 {
+	text-align: center;
+}
+
+.footer .footer-email {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer input[type=email] {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.footer .subscribe {
+	text-align: center;
+}
+
+.footer .footer-social {
+	text-align: center;
+}
+
+.footer .footer-social>a>img {
+	height: 35px;
+	display: inline-block;
+	margin: 5px;
+
+}
